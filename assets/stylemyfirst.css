@@ -1,0 +1,45 @@
+body {
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px
+}
+#firstpara {
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing: 2;
+}
+
+.ingredients {
+    font-family: 'Oswald', sans-serif;
+}
+
+.directions {
+    font-family: 'VT323', monospace;
+}
+
+a:hover {
+   background-color: pink;
+}
+
+a:focus {
+    background-color: aqua;
+}
+
+a:active {
+    background-color: purple;
+}
+
+input:default {
+    box-shadow: 0 0 2px 1px coral;
+  }
+  
+  input:default + label {
+    color: coral;
+  }

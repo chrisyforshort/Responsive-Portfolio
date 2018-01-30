@@ -1,0 +1,409 @@
+body {
+    background-image: url("../images/sayagata-400px/sayagata-400px.png")
+}
+
+header {
+    background-color: #ffffff;
+    height: 100px;
+    top: 0;
+}
+
+#nameheader {
+    float: left;
+    border: thin silver solid;
+    color: #ffffff;
+    padding: 31px;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 0;
+    overflow: hidden;
+    text-align: bottom;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: right;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: thin rgb(224, 224, 224) solid;
+    position: relative;
+}
+
+#contactlink {
+    border: 0;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+#portfoliolink {
+    margin-left: 0px;
+}
+
+.aboutme {
+    background-color: #ffffff;
+    text-align: left;
+    width: 650px;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 1.8;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#header {
+    color: #4aaaa5;
+    text-align:left;
+    left: 120px;
+    line-height: 3.5;
+    height: 60px;
+    font-size: 170%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#linebreak {
+    margin-bottom: 30px;
+}
+
+#profilepic {
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+}
+
+.connect {
+    float: right;
+    background-color: #ffffff;
+    color: #4aaaa5;
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    top: 149px;
+    left: 805px;
+    bottom: 390px;
+    margin-left: 45px;
+    margin-right: 100px;
+    overflow: hidden;
+    width: 270px;
+    height: 120px; 
+}
+
+#connectheader {
+    margin-top: 0px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#github {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+#linkedin {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+#stackoverflow {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #666666;
+    color: #c7c7c7;
+    position: absolute;
+    text-align: center;
+    line-height: 6;
+    height: 70px;
+    bottom: -160px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 8px solid #4aaaa5;
+    left: 0px;
+}
+
+/* Contact Form CSS Styling */
+
+#contactlinebreak {
+    margin-bottom: 20px;
+}
+
+.contactform {
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: left;
+    width: 650px;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 1.8;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+    background-color: #69aaa7
+}
+
+/* Portfolio CSS Styling */
+
+.portfolio {
+    background-color: #ffffff;
+    text-align: left;
+    width: 650px;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 1.8;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.portfolioimages {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.scratch {
+    background-image:url(./assets/images/Screen%20Shot%202018-01-18%20at%203.35.08%20PM.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#scratchbanner {
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    width: 290px;
+    top: 408px;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    left: 138px;
+}
+
+.chicken {
+    background-image:url(./assets/images/chickennuggets.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#chickenbanner {
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    width: 290px;
+    top: 408px;
+    left: 462px;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+}
+
+.comingsoon {
+    background-image:url(./assets/images/comingsoon.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#comingsoonbanner {
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    width: 290px;
+    top: 636px;
+    left: 138px;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+}
+
+.comingsoon2 {
+    background-image:url(./assets/images/comingsoon.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#comingsoonbanner2 {
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    width: 290px;
+    top: 636px;
+    left: 462px;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+}
+
+.comingsoon3 {
+    background-image:url(./assets/images/comingsoon.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#comingsoonbanner3 {
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    width: 290px;
+    top: 865px;
+    left: 138px;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+}
+
+#portfoliofooter {
+    background-color: #666666;
+    color: #c7c7c7;
+    position: absolute;
+    text-align: center;
+    line-height: 6;
+    height: 70px;
+    bottom: -295px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 8px solid #4aaaa5;
+    left: 0px;
+}
+
+@media screen and (max-width: 980) {
+    .navbar {
+        max-width: 425px;
+        margin-left: 15px;
+    }
+    .aboutme {
+        width: 50px;
+        margin-left: 15px;
+    }
+
+    .connect {
+        position: relative;
+        top: 10px;
+    }
+
+    footer {
+        height: 0px;
+    }
+}
+
+@media screen and (max-width: 768) {
+    body {
+        background-color: black;
+    }
+
+    .navbar {
+        max-width: 625px;
+        margin-left: 15px;
+    }
+    .aboutme {
+        width: 50px;
+        margin-left: 15px;
+    }
+
+    .connect {
+        position: relative;
+        top: 10px;
+    }
+
+    footer {
+        height: 0px;
+    }
+}
+
+@media screen and (max-width: 640) {
+    background-color: blue;
+
+    header {
+        position: static;
+    }
+        .navbar {
+            max-width: 425px;
+            margin-left: 15px;
+        }
+        .aboutme {
+            width: 50px;
+            margin-left: 15px;
+        }
+    
+        .connect {
+            position: relative;
+            top: 10px;
+        }
+    
+        footer {
+            height: 0px;
+        }
+}
